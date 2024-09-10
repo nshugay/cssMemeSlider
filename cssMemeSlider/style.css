@@ -70,9 +70,9 @@ input[type="radio"] {
 
 .controls {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 10rem;
-    height: 0.7rem;
+    height: 3rem;
     display: flex;
     justify-content: space-between;
     margin-left: 21rem;
@@ -127,12 +127,6 @@ input#slide5:checked ~ .controls label[for='slide5'] {
         padding-top: 1rem;
     }
     .controls {
-        display: flex;
-        align-items: center;
-        width: 10rem;
-        height: 1rem;
-        display: flex;
-        justify-content: space-between;
         margin: 0rem 2.3rem 3rem;
     }
     .circle {
