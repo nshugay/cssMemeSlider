@@ -21,7 +21,7 @@ img {
 }
 
 .slider {
-    max-width: 500px;
+    max-width: 31.25rem;
     margin: auto;
     margin-top: 9rem;
     overflow: hidden;
@@ -109,14 +109,14 @@ input#slide5:checked ~ .controls label[for='slide5'] {
 }
 
 /* Медиа-запросы для адаптивности */
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
     img {
         margin-bottom: 2rem;
     }
     .slider {
         display: flex; 
         flex-direction: column;
-        max-width: 300px;
+        max-width: 18.75rem;
         justify-content: center;
         align-items: center;
     }
