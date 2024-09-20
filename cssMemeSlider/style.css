@@ -121,7 +121,6 @@ input#slide5:checked ~ .controls label[for='slide5'] {
         align-items: center;
     }
     .caption {
-        text-align: center;
         width: 100%;
         margin-bottom: -3.5rem;
         padding-top: 1rem;
